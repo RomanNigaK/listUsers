@@ -1,0 +1,11 @@
+.avatar {
+  overflow: hidden;
+  border-radius: 150px;
+  background-color: #fff;
+  border: 1px solid #fff;
+
+  > img {
+    width: inherit;
+    height: inherit;
+  }
+}

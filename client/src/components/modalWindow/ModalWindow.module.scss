@@ -1,0 +1,41 @@
+.modal {
+  position: absolute;
+  background-color: rgba($color: #d9d9d9, $alpha: 0);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  left: 0;
+  > div {
+    background-color: rgba($color: #d9d9d9, $alpha: 0.9);
+    width: 90%;
+    height: 90%;
+    > div:first-child {
+      height: 60px;
+      border-bottom: 3px solid black;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      > div {
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.children {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close {
+  width: 40px;
+  cursor: pointer;
+  &:hover {
+    scale: 1.1;
+  }
+}

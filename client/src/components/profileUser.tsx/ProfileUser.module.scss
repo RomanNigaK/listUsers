@@ -1,0 +1,19 @@
+.data {
+  display: flex;
+  justify-content: center;
+  > div {
+    margin: 5px;
+    font-size: 14pt;
+  }
+}
+.listContacts {
+  display: flex;
+  justify-content: center;
+
+  > div {
+    margin: 3px;
+  }
+}
+.contacts {
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.input {
+  > input {
+    width: 200px;
+    height: 40px;
+
+    padding-left: 10px;
+  }
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+}

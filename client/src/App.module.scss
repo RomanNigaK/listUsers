@@ -1,0 +1,28 @@
+.app {
+  display: grid;
+  grid-template-areas: "options content";
+  grid-template-columns: 125px auto;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  > div:last-child {
+    background-color: #fff;
+  }
+}
+.options {
+  grid-area: options;
+  background: rgb(193, 193, 193);
+  img:hover {
+    cursor: pointer;
+    //scale: 1.1;
+  }
+}
+
+.content {
+  grid-area: content;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
